@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.back-col {
+  background-color: #d4cea7;
+  padding: 25px 0;
+}
+main {
+  margin: 0 auto;
+  width: 80%;
+}
+.head {
+  background-color: #e65e2b;
+  padding: 17px 40px;
+}
+.flex {
+  display: flex;
+}
+.width {
+  margin: 0 auto;
+  width: 80%;
+}
+.flex a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  font-size: 18px;
+}
+.flex a:hover {
+  color: green;
+}
+.list-rev {
+  background-color: #285979;
+  height: 400px;
+  width: 250px;
+  box-shadow: 4px 4px 8px 1px;
+}
+.number {
+  list-style-type: decimal;
+  list-style-position: inside;
+  padding: 8px;
+}
+.number li {
+  color: white;
+  padding: 8px 0;
+}
+.out-num {
+  list-style-position: outside;
+  padding: 0 30px;
+}
+.white li {
+  color: white;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 5px 10px;
+}
+.num-b li {
+  list-style-type: decimal;
+  padding: 5px 10px;
+}
+.sub li {
+  list-style-type: disc;
+  padding: 5px 10px;
+}
+.tick {
+  color: white;
+}
+.tick li {
+  list-style-image: url(./image1.svg);
+  list-style-position: inside;
+  padding: 5px 10px;
+}
+.margin {
+  justify-content: space-around;
+}
+.list {
+  padding: 40px 0;
+}
+.heading {
+  color: #252c22;
+  text-transform: capitalize;
+  font-size: 22px;
+  word-spacing: 5px;
+  padding: 10px 0;
+}
+.head-para-font {
+  padding: 8px 35px;
+  color: #6b6752;
+  line-height: 1.4;
+  text-align: justify;
+}
+.foot {
+  background-color: #252c22;
+}
+.boot {
+  color: white;
+  padding: 40px 110px;
+}
+.boot li {
+  font-size: 16px;
+  padding: 0 8px;
+}
